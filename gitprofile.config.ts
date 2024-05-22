@@ -11,7 +11,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic',
       automatic: {
-        sortBy: 'stars',
+        sortBy: 'pinned', // or 'updated' to sort by most recent
         limit: 8,
         exclude: {
           forks: false,
@@ -19,7 +19,14 @@ const CONFIG = {
         },
       },
       manual: {
-        projects: ['Aayog/DoctorsToday', 'Aayog/LazyEyeScroller', 'Aayog/MovieTicketingWebApp', 'Aayog/DynamicCMS', 'Aayog/NepaliWeddingsWebsite'],
+        projects: [
+          'Aayog/DoctorsToday',
+          'Aayog/LazyEyeScroller',
+          'Aayog/MovieTicketingWebApp',
+          'Aayog/DynamicCMS',
+          'Aayog/NepaliWeddingsWebsite',
+          'Aayog/NewZoidTimes',
+        ],
       },
     },
     external: {
