@@ -20,7 +20,6 @@ const CONFIG = {
       },
       manual: {
         projects: [
-          'Aayog/DoctorsToday',
           'Aayog/LazyEyeScroller',
           'Aayog/MovieTicketingWebApp',
           'Aayog/DynamicCMS',
@@ -46,6 +45,11 @@ const CONFIG = {
           title: 'Calculator',
           description: 'GUI application built with JavaFX',
           link: 'https://github.com/Aayog/Calculator',
+        },
+        {
+          title: 'DoctorsToday',
+          description: 'Engineered a comprehensive API infrastructure using Node.js, enhanced by MinIO, MongoDB, and MySQL for efficient data management, all containerized using Docker. Realized a significant 60% improvement in data retrieval speed, substantially boosting system responsiveness and user experience.',
+          link: 'https://github.com/Aayog/',
         },
       ],
     },
@@ -174,11 +178,8 @@ const CONFIG = {
   },
   
   themeConfig: {
-    defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
-    disableSwitch: false,
+    defaultTheme: 'business',
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -223,17 +224,6 @@ const CONFIG = {
       'sunset',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
   },
   enablePWA: true,
 };
