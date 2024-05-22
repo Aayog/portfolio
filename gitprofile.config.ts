@@ -21,38 +21,60 @@ const CONFIG = {
       manual: {
         projects: [
           'Aayog/LazyEyeScroller',
-          'Aayog/MovieTicketingWebApp',
-          'Aayog/DynamicCMS',
-          'Aayog/NepaliWeddingsWebsite',
-          'Aayog/NewZoidTimes',
+          'Aayog/CMS_Backend',
+          'Aayog/MovieShowBookingJava',
+          'Aayog/WPM',
+          'Aayog/rock_paper_scissors_lizard_spock',
+          'Aayog/SocketCanvas',
+          'Aayog/GeneticAlgorithm',
         ],
       },
     },
-    external: {
-      header: 'My Projects',
-      projects: [
-        {
-          title: 'NewZoidTimes',
-          description: 'A Spacy-based Python backend for headline synthesis',
-          link: 'https://github.com/Aayog/NewZoidTimes',
-        },
-        {
-          title: 'Tic-Tac-Toe',
-          description: 'GUI application built with TKinter',
-          link: 'https://github.com/Aayog/TicTacToe',
-        },
-        {
-          title: 'Calculator',
-          description: 'GUI application built with JavaFX',
-          link: 'https://github.com/Aayog/Calculator',
-        },
-        {
-          title: 'DoctorsToday',
-          description: 'Engineered a comprehensive API infrastructure using Node.js, enhanced by MinIO, MongoDB, and MySQL for efficient data management, all containerized using Docker. Realized a significant 60% improvement in data retrieval speed, substantially boosting system responsiveness and user experience.',
-          link: 'https://github.com/Aayog/',
-        },
-      ],
-    },
+      external: {
+        header: 'My Projects',
+        projects: [
+          {
+            title: 'DoctorsToday',
+            description: 'Engineered a comprehensive API infrastructure using Node.js, enhanced by MinIO, MongoDB, and MySQL for efficient data management, all containerized using Docker. Realized a significant 60% improvement in data retrieval speed, substantially boosting system responsiveness and user experience.',
+            link: 'https://github.com/Aayog/DoctorsToday',
+          },
+          {
+            title: 'Nepali Weddings Website',
+            description: 'Implemented Kubernetes (KIND) deployment for a PHP, HTML, CSS, JavaScript website for learning purposes, previously deployed using Docker.',
+            link: 'https://github.com/Aayog/NepaliWeddingsWebsite',
+          },
+          {
+            title: 'LazyEyeScroller',
+            description: 'Created an innovative Python script that won first place at a MLH-hosted hackathon, University of Indianapolis, 2018. The script leverages eye-tracking technology for intuitive control of social media scrolling, showcasing my proficiency in Python and novel application of machine learning techniques.',
+            link: 'https://github.com/Aayog/LazyEyeScroller',
+          },
+          {
+            title: 'Movie Ticketing Web Application',
+            description: 'Initiated and successfully deployed a Java Spring Framework-based web application which included comprehensive database management and robust security features.',
+            link: 'https://github.com/Aayog/MovieTicketingWebApp',
+          },
+          {
+            title: 'Dynamic CMS',
+            description: 'Formulated a Django REST Framework-based CMS, prioritizing scalability and maintenance ease. Integrated advanced content management features, enabling streamlined content updates and user-friendly navigation.',
+            link: 'https://github.com/Aayog/DynamicCMS',
+          },
+          {
+            title: 'Tic-Tac-Toe',
+            description: 'GUI application built with TKinter',
+            link: 'https://github.com/Aayog/TicTacToe',
+          },
+          {
+            title: 'Calculator',
+            description: 'GUI application built with JavaFX',
+            link: 'https://github.com/Aayog/Calculator',
+          },
+          {
+            title: 'NewZoidTimes',
+            description: 'Developed a Spacy-based Python backend to grammatically merge headlines.',
+            link: 'https://github.com/Aayog/NewZoidTimes',
+          },
+        ],
+      },
   },
   seo: {
     title: 'Portfolio of Aayog Koirala',
